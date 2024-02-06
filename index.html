@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Login || Masuk</title>
+</head>
+<body class=" bg-slate-300">
+
+    <div class="flex">
+        <div class="flex flex-col bg-white mt-20 items-center shadow-lg rounded-lg lg:mx-auto lg:w-1/2 min-[300px]:w-[300px] min-[300px]:mx-auto">
+            <h1 class="lg:text-4xl uppercase mb-3 text-sky-400 font-semibold mt-5 min-[300px]:text-3xl">Login</h1>
+            <p class="text-slate-400 text-sm mb-5">Masuk dengan menggunakan akun anda</p>
+            <div class="lg:w-[500px] min-[300px]:w-full min-[300px]:px-5">
+            <label for="Email" class="font-bold text-xl mt-5">Email 
+                <input type="email" placeholder="Masukan Email" class="w-full rounded-md mt-2 px-4 outline-sky-400 mb-4 border border-slate-500 ">
+            </label>
+
+            <label for="password" class="font-bold text-xl mt-6">Password
+                <input type="password" placeholder="Masukan Password" class="w-full rounded-md mt-2 px-3 outline-sky-400 border border-slate-500 ">
+            </label>
+        </div>
+            <div class=" justify-around  w-full py-2 min-[300px]:justify-evenly">
+                <div class="mr-12 min-[300px]:ml-[20px] items-center flex gap-1 justify-center">
+                <input type="checkbox" class="font-bold">
+                <span class="text-xs font-semibold mr-16">Remember me</span>
+                <a href="#" class="text-xs font-semibold left-24 min-[300px]:left-[50px] relative cursor-pointer hover:text-sky-600">Lupa password?</a>
+            </div>
+        </div>
+
+        <div>
+            <input type="submit" value="Login" class="mt-4 w-36 bg-sky-500 rounded-md text-white hover:opacity-80 cursor-pointer">
+        </div>
+        <div class="inline-flex items-center justify-cent w-full">
+            <hr class="w-full h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+            <span class="absolute px-3 font-medium text-gray-900 -translate-x-1/2 bg-white left-1/2 dark:text-black dark:bg-white">or</span>
+        </div>
+        <div>
+            <a href="daftar.html" type="submit" value="Daftar" class="mt-4 w-36 bg-green-500 rounded-md text-white hover:opacity-80 cursor-pointer text-center mb-5">Daftar</a>
+        </div>
+
+        <!-- javascript -->
+        <script src="src/js/script.js"></script>
+</body>
+</html>
